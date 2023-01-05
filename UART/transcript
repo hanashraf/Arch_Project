@@ -1,0 +1,355 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project uart
+# reading D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project computer_arch
+# Compile of uart_module.v failed with 3 errors.
+# Compile of uart_module.v was successful.
+# Compile of testbench_tx.v was successful.
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+add wave -position end  sim:/testbench_tx/clk
+add wave -position end  sim:/testbench_tx/rst
+add wave -position end  sim:/testbench_tx/trans_en
+add wave -position end  sim:/testbench_tx/trans_data
+add wave -position end  sim:/testbench_tx/trans_busy
+add wave -position end  sim:/testbench_tx/txd
+run
+# trans_data= 18 trans_en=1 txd=x trans_busy=x
+# trans_data= 18 trans_en=1 txd=x trans_busy=0
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+run
+# trans_data= 52 trans_en=1 txd=0 trans_busy=1
+# trans_data= 52 trans_en=1 txd=0 trans_busy=0
+# trans_data= 52 trans_en=1 txd=0 trans_busy=1
+# trans_data= 52 trans_en=1 txd=1 trans_busy=1
+# trans_data= 52 trans_en=1 txd=0 trans_busy=1
+# trans_data= 52 trans_en=1 txd=1 trans_busy=1
+# trans_data= 52 trans_en=1 txd=0 trans_busy=1
+# trans_data= 52 trans_en=1 txd=0 trans_busy=0
+# trans_data= 52 trans_en=1 txd=0 trans_busy=1
+run
+# trans_data=135 trans_en=1 txd=0 trans_busy=1
+# trans_data=135 trans_en=1 txd=1 trans_busy=1
+# trans_data=135 trans_en=1 txd=0 trans_busy=1
+# trans_data=135 trans_en=1 txd=1 trans_busy=1
+# trans_data=135 trans_en=0 txd=1 trans_busy=1
+# trans_data=135 trans_en=0 txd=0 trans_busy=1
+# trans_data=135 trans_en=0 txd=0 trans_busy=0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of testbench_tx.v was successful.
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+add wave -position end  sim:/testbench_tx/clk
+add wave -position end  sim:/testbench_tx/rst
+add wave -position end  sim:/testbench_tx/trans_en
+add wave -position end  sim:/testbench_tx/trans_data
+add wave -position end  sim:/testbench_tx/trans_busy
+add wave -position end  sim:/testbench_tx/txd
+run
+# trans_data= 18 trans_en=1 txd=x trans_busy=x
+# trans_data= 18 trans_en=1 txd=x trans_busy=0
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# Compile of testbench_rx.v was successful.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Error: (vsim-3033) D:/altera/13.0sp1/testbench_rx.v(16): Instantiation of 'receiver' failed. The design unit was not found.
+# 
+#         Region: /testbench_rx
+#         Searched libraries:
+#             D:/altera/13.0sp1/work
+# Error loading design
+vsim work.testbench_rx
+# vsim work.testbench_rx 
+# Loading work.testbench_rx
+# ** Error: (vsim-3033) D:/altera/13.0sp1/testbench_rx.v(16): Instantiation of 'receiver' failed. The design unit was not found.
+# 
+#         Region: /testbench_rx
+#         Searched libraries:
+#             D:/altera/13.0sp1/work
+# Error loading design
+# Compile of testbench_rx.v was successful.
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Error: (vsim-3033) D:/altera/13.0sp1/testbench_rx.v(16): Instantiation of 'receiver' failed. The design unit was not found.
+# 
+#         Region: /testbench_rx
+#         Searched libraries:
+#             D:/altera/13.0sp1/work
+# Error loading design
+# Compile of testbench_rx.v was successful.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Error: (vsim-3033) D:/altera/13.0sp1/testbench_rx.v(16): Instantiation of 'receiver' failed. The design unit was not found.
+# 
+#         Region: /testbench_rx
+#         Searched libraries:
+#             D:/altera/13.0sp1/work
+# Error loading design
+# Compile of testbench_bdgenerator.v was successful.
+# Compile of testbench_bdgenerator.v was successful.
+vsim -voptargs=+acc work.testbench_bd
+# vsim -voptargs=+acc work.testbench_bd 
+# Loading work.testbench_bd
+# Loading work.baud_rate_generator
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen
+# Error loading design
+# Compile of testbench_bdgenerator.v was successful.
+vsim -voptargs=+acc work.testbench_bd
+# vsim -voptargs=+acc work.testbench_bd 
+# Loading work.testbench_bd
+# Loading work.baud_rate_generator
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen
+# Error loading design
+vsim work.testbench_bd
+# vsim work.testbench_bd 
+# Loading work.testbench_bd
+# Loading work.baud_rate_generator
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_bd/MUT/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen/baud_gen
+# Error loading design
+# Compile of testbench_bdgenerator.v was successful.
+# Compile of testbench_oversampling.v was successful.
+vsim -voptargs=+acc work.testbench_oversampling
+# vsim -voptargs=+acc work.testbench_oversampling 
+# Loading work.testbench_oversampling
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+vsim work.testbench_rx
+# vsim work.testbench_rx 
+# Loading work.testbench_rx
+# ** Error: (vsim-3033) D:/altera/13.0sp1/testbench_rx.v(16): Instantiation of 'receiver' failed. The design unit was not found.
+# 
+#         Region: /testbench_rx
+#         Searched libraries:
+#             D:/altera/13.0sp1/work
+# Error loading design
+# Compile of testbench_rx.v was successful.
+# Compile of testbench_bdgenerator.v was successful.
+vsim -voptargs=+acc work.testbench_bd
+# vsim -voptargs=+acc work.testbench_bd 
+# Loading work.testbench_bd
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+vsim -voptargs=+acc work.testbench_oversampling
+# vsim -voptargs=+acc work.testbench_oversampling 
+# Loading work.testbench_oversampling
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_oversampling/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+# Compile of uart_module.v was successful.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+# Compile of testbench_rx.v was successful.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_rx/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+# Compile of testbench_rx.v was successful.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# Loading work.rx
+add wave -position end  sim:/testbench_rx/clk
+add wave -position end  sim:/testbench_rx/rst
+add wave -position end  sim:/testbench_rx/rxd
+add wave -position end  sim:/testbench_rx/rec_data_out
+add wave -position end  sim:/testbench_rx/rec_valid_out
+run
+# rxd=1 rec_data=  x rec_valid=x
+# rxd=1 rec_data=  x rec_valid=0
+# rxd=1 rec_data=  x rec_valid=1
+# rxd=1 rec_data=  x rec_valid=0
+# Compile of testbench_bdgenerator.v was successful.
+vsim -voptargs=+acc work.testbench_bd
+# vsim -voptargs=+acc work.testbench_bd 
+# Loading work.testbench_bd
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3036) Instantiation depth of '/testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT' is 75. Assuming recursive instantiation.
+# 
+#         Region: /testbench_bd/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT/MUT
+# Error loading design
+# Compile of testbench_bdgenerator.v was successful.
+vsim -voptargs=+acc work.testbench_bd
+# vsim -voptargs=+acc work.testbench_bd 
+# Loading work.testbench_bd
+# Loading work.bd_generator
+add wave -position end  sim:/testbench_bd/clk
+add wave -position end  sim:/testbench_bd/rst
+add wave -position end  sim:/testbench_bd/rate_bd
+add wave -position end  sim:/testbench_bd/clk_bd
+run
+# rate_bd=   5000000 clk_bd=x
+# rate_bd=   5000000 clk_bd=0
+# Compile of testbench_oversampling.v was successful.
+vsim -voptargs=+acc work.testbench_oversampling
+# vsim -voptargs=+acc work.testbench_oversampling 
+# Loading work.testbench_oversampling
+# Loading work.oversampling_clk_generator
+add wave -position end  sim:/testbench_oversampling/clk
+add wave -position end  sim:/testbench_oversampling/rst
+add wave -position end  sim:/testbench_oversampling/rate_bd
+add wave -position end  sim:/testbench_oversampling/oversampling_factor
+add wave -position end  sim:/testbench_oversampling/oversampling_clock
+run
+# rate_bd=   5000000 oversampling_factor= x oversampling_clock=x
+# rate_bd=   5000000 oversampling_factor= x oversampling_clock=0
+# rate_bd=   5000000 oversampling_factor=16 oversampling_clock=0
+vsim -voptargs=+acc work.testbench_tx
+# vsim -voptargs=+acc work.testbench_tx 
+# Loading work.testbench_tx
+# Loading work.tx
+add wave -position end  sim:/testbench_tx/clk
+add wave -position end  sim:/testbench_tx/rst
+add wave -position end  sim:/testbench_tx/trans_en
+add wave -position end  sim:/testbench_tx/trans_data
+add wave -position end  sim:/testbench_tx/trans_busy
+add wave -position end  sim:/testbench_tx/txd
+run
+# trans_data= 18 trans_en=1 txd=x trans_busy=x
+# trans_data= 18 trans_en=1 txd=x trans_busy=0
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# trans_data= 18 trans_en=1 txd=1 trans_busy=1
+# trans_data= 18 trans_en=1 txd=0 trans_busy=1
+# Compile of testbench_slave.v failed with 1 errors.
+# Compile of testbench_slave.v was successful.
+vsim -voptargs=+acc work.testbench_slave
+# vsim -voptargs=+acc work.testbench_slave 
+# Loading work.testbench_slave
+# Loading work.apb_slave
+# ** Warning: (vsim-3017) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'clk' not found in the connected module (1st connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'rst' not found in the connected module (2nd connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'sel' not found in the connected module (3rd connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'wen' not found in the connected module (4th connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'addr' not found in the connected module (5th connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'wdata' not found in the connected module (6th connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'rdata' not found in the connected module (7th connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Error: (vsim-3063) D:/altera/13.0sp1/testbench_slave.v(24): Port 'ack' not found in the connected module (8th connection).
+# 
+#         Region: /testbench_slave/dut
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_clk'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_resetn'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_sel'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_enable'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_write'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_address'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'PW_data'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'PR_data'.
+# 
+# ** Warning: (vsim-3722) D:/altera/13.0sp1/testbench_slave.v(24): [TFMPC] - Missing connection for port 'P_ready'.
+# 
+# Error loading design
+# Compile of testbench_slave.v failed with 1 errors.
+# Compile of testbench_slave.v failed with 1 errors.
+vsim -voptargs=+acc work.testbench_rx
+# vsim -voptargs=+acc work.testbench_rx 
+# Loading work.testbench_rx
+# Loading work.rx

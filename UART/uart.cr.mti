@@ -1,0 +1,29 @@
+D:/altera/13.0sp1/apb.v {1 {vlog -work work D:/altera/13.0sp1/apb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module apb_slave
+
+Top level modules:
+	--none--
+
+} {} {}} D:/altera/13.0sp1/bd_generator.v {1 {vlog -work work D:/altera/13.0sp1/bd_generator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baud_rate_generator
+
+Top level modules:
+	--none--
+
+} {} {}} D:/altera/13.0sp1/transmitter.v {1 {vlog -work work D:/altera/13.0sp1/transmitter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} D:/altera/13.0sp1/receiver.v {1 {vlog -work work {D:\altera\13.0sp1\receiver.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}}
