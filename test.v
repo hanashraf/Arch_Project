@@ -128,6 +128,10 @@ endtask
   endtask
 
 
- 
+  initial
+   begin
+    $dumpfile("apbWaveform.vcd");
+    $dumpvars;
+   end
 
  endmodule
